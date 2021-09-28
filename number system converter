@@ -1,0 +1,29 @@
+# 28th September 2021: Basic Number Conversion
+
+# convert the decemical number 19 in binary
+
+quotient = 19//2 #floor division
+# gets how many 2s go into 19
+remainder = 19%2 # modulus (remainder)
+
+print (quotient, remainder)
+
+quotient = 9//2
+remainder = 9%2
+print (quotient, remainder)
+
+quotient = 4//2
+remainder = 4%2
+print (quotient, remainder)
+
+quotient = 2//2
+remainder = 2%2
+print (quotient, remainder)
+
+quotient = 1//2
+remainder = 1%2
+print (quotient, remainder) #stop here as quotient is Zero
+
+# abstraction by only focusing on 19 and ignoring all the other information
+# builds understanding of looping even though we havent done that yet
+# use debug and step into to show flow of control concept
