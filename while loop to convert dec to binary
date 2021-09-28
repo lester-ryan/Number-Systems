@@ -1,0 +1,14 @@
+# while loop to convert dec to binary
+
+print('enter a number')
+number = input()
+quotient = int(number)
+array = []
+while quotient != 0:
+    new_quotient = quotient // 2 # floor division : how many 2s in 19
+    remainder = quotient % 2  # modulus : remainder
+    array.append(remainder)
+#     print(new_quotient, remainder)
+    quotient = new_quotient
+array.reverse()
+print(array)
